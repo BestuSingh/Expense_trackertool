@@ -31,7 +31,7 @@ class ExpenseTracker:
         print(f"Total Expenses: Rupees{total:.2f}")
     
 def main():
-    tracker = str("ExpenseTracker()")
+    tracker = ExpenseTracker()
         
     while True:
         print("\nExpense Tracker Menu:")
